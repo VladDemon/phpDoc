@@ -1,0 +1,16 @@
+{
+    "name": "bitrix/crm2",
+    "autoload": {
+        "psr-4": {
+            "Local\\Crm2\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpdocumentor/shim": "^3.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpdocumentor/shim": true
+        }
+    }
+}

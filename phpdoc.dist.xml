@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor configVersion="3.0">
+  <setting name="template.color" value="cyan"/>
+  <paths>
+    <output>build/docs</output>
+    <cache>build/cache</cache>
+  </paths>
+  <version number="1.0">
+    <folder>latest</folder>
+    <api format="php">
+      <source dsn=".">
+        <path>src</path>
+      </source>
+      <output>api</output>
+      <ignore hidden="true" symlinks="true">
+      </ignore>
+      <extensions>
+        <extension>php</extension>
+      </extensions>
+      <visibility>public</visibility>
+      <default-package-name>Local</default-package-name>
+      <include-source>true</include-source>
+      <markers>
+        <marker>TODO</marker>
+        <marker>FIXME</marker>
+      </markers>
+    </api>
+  </version>
+  <setting name="title" value="Документация проекта"/>
+</phpdocumentor>
