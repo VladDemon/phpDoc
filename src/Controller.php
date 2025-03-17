@@ -25,7 +25,7 @@ class Controller
      * Простой public метод для класса
      *
      * @param int $b Переменная $b
-     * @return string
+     * @return int
      */
     public function test1(int $b = 5): int
     {
