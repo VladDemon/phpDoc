@@ -12,7 +12,7 @@ class Controller
     /**
      * Просто переменная а = 10
      *
-     * @var int
+     * @var string
      */
     public $a = 10;
 
