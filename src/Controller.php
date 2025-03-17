@@ -18,14 +18,14 @@ class Controller
 
     /**
      * Test
-     * @var string
+     * @var int
      */
     public $test = Test::test();
     /**
      * Простой public метод для класса
      *
      * @param int $b Переменная $b
-     * @return int
+     * @return string
      */
     public function test1(int $b = 5): int
     {
