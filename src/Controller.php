@@ -1,11 +1,10 @@
 <?php
 namespace Local\Crm2;
-
+use Local\Crm2\Test\Test;
 /**
- * Класс контроллер тестовый бесполезный
+ * Класс контроллер тестовый бесполезный1213123 12312312
  *
  * @package Local\Crm2
- * @author test <test@gmail.com>
  * @version 1.0.0
  */
 class Controller
@@ -17,6 +16,11 @@ class Controller
      */
     public $a = 10;
 
+    /**
+     * Test
+     * @var int
+     */
+    public $test = Test::test();
     /**
      * Простой public метод для класса
      *

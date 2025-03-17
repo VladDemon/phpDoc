@@ -6,11 +6,17 @@
         }
     },
     "require-dev": {
-        "phpdocumentor/shim": "^3.7"
+        "phpdocumentor/shim": "^3.7",
+        "phpstan/phpstan": "^2.1",
+        "phan/phan": "^5.4"
     },
     "config": {
         "allow-plugins": {
-            "phpdocumentor/shim": true
+            "phpdocumentor/shim": true,
+            "phpdocumentor/unified-asset-installer": true
         }
+    },
+    "require": {
+        "phpdocumentor/template-clean": "^1.0"
     }
 }

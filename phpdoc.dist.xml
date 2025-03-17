@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdocumentor configVersion="3.0">
-  <setting name="template.color" value="cyan"/>
+
+  <title>Документация проекта</title>
   <paths>
     <output>build/docs</output>
     <cache>build/cache</cache>
   </paths>
   <version number="1.0">
     <folder>latest</folder>
-    <api format="php">
+    <api>
       <source dsn=".">
         <path>src</path>
       </source>
       <output>api</output>
-      <ignore hidden="true" symlinks="true">
-      </ignore>
+      <ignore hidden="true" symlinks="true" />
       <extensions>
         <extension>php</extension>
       </extensions>
@@ -23,8 +23,12 @@
       <markers>
         <marker>TODO</marker>
         <marker>FIXME</marker>
+        <marker>DEPRECATED</marker>
       </markers>
     </api>
   </version>
-  <setting name="title" value="Документация проекта"/>
+
+  <settings>
+    <setting name="template.color" value="cyan" />
+  </settings>
 </phpdocumentor>
