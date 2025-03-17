@@ -18,7 +18,7 @@ class Controller
 
     /**
      * Test
-     * @var int
+     * @var string
      */
     public $test = Test::test();
     /**
