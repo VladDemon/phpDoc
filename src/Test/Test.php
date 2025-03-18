@@ -2,12 +2,12 @@
 namespace Local\Crm2\Test;
 
 /**
- * Test class
+ * Test classfsdfasdfasdfasdfasdfasdfsad
  */
 class Test
 {
     /**
-     * test method33333333
+     * test method3333333331231231fsdfsd
      * @return int Тестовое значение
      */
     public static function test()
