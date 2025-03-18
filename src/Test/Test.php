@@ -7,7 +7,7 @@ namespace Local\Crm2\Test;
 class Test
 {
     /**
-     * test method
+     * test method33333333
      * @return int Тестовое значение
      */
     public static function test()
