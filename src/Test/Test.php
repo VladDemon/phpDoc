@@ -8,7 +8,7 @@ class Test
 {
     /**
      * test method3333333331231231fsdfsd
-     * @return string Тестовое значение
+     * @return int Тестовое значение
      */
     public static function test()
     {
