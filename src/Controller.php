@@ -10,19 +10,19 @@ use Local\Crm2\Test\Test;
 class Controller
 {
     /**
-     * Просто переменная а = 10123123
+     * Просто переменная а = 10123123fdfdfd
      *
      * @var int
      */
     public $a = 10;
 
     /**
-     * Test12312312
+     * Test12312312fdfdfdfdf
      * @var int
      */
     public $test = Test::test();
     /**
-     * Простой public метод для класса
+     * Простой public метод для классаdfdfd
      *
      * @param int $b Переменная $b
      * @return int
