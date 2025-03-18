@@ -10,14 +10,14 @@ use Local\Crm2\Test\Test;
 class Controller
 {
     /**
-     * Просто переменная а = 10
+     * Просто переменная а = 10123123
      *
      * @var int
      */
     public $a = 10;
 
     /**
-     * Test
+     * Test12312312
      * @var int
      */
     public $test = Test::test();
